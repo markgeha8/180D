@@ -3,9 +3,9 @@
 
 import cv2
 
-#key = cv2. waitKey(1)
+#key = cv2.waitKey(1)
 webcam = cv2.VideoCapture(0)
-#while True:
+while True:
      
     check, frame = webcam.read()
     print(check) #prints true as long as the webcam is running
