@@ -1,4 +1,5 @@
 #Code gotten from: https://github.com/kevinam99/capturing-images-from-webcam-using-opencv-python/blob/master/webcam-capture-v1.01.py
+#Update
 
 import cv2 
 
@@ -37,4 +38,3 @@ while True:
         print("Program ended.")
         cv2.destroyAllWindows()
         break
-© 2019 GitHub, Inc.
