@@ -1,3 +1,4 @@
+#Client test
 import socket
 client = socet.socket(socket.AF_INET, socket.SOCK_STREAM)
 client.connect(('0.0.0.0', 8080))
