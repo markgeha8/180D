@@ -8,7 +8,7 @@ serv.bind(('0.0.0.0', 8080))
 serv.listen(5)
 while True:
     conn, addr = serv.accept()
-    from_client = ’’
+    from_client = ''
     while True:
         data = conn.recv(4096)
         if not data: break
