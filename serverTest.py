@@ -12,8 +12,8 @@ while True:
     while True:
         data = conn.recv(4096)
         if not data: break
-        from_client += data
-        print(from_client)
+        #from_client += data
+        print(data)
         conn.send(b'I am SERVER\n')
     conn.close()
     print('client disconnected')
