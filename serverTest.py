@@ -14,6 +14,6 @@ while True:
         if not data: break
         from_client += data
         print(from_client)
-        conn.send("I am SERVER\n")
+        conn.send(b'I am SERVER\n')
     conn.close()
     print('client disconnected')
